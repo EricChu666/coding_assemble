@@ -21,4 +21,7 @@ good = []
 for d in data:
 	if 'good' in d:
 		good.append(d)
+
+#faster typing: good = [d for d in date if good in d]
+
 print('There are', len(good), 'datas include the word "good."')
