@@ -16,4 +16,9 @@ for d in data:
 
 print('The average length of the data is:', sum_len/len(data))
 print('There are', len(new), 'datas which length is under 100.')
-print(new[1])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('There are', len(good), 'datas include the word "good."')
